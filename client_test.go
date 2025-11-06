@@ -3,7 +3,7 @@ package supabase_test
 import (
 	"testing"
 
-	"github.com/supabase-community/supabase-go"
+	"github.com/cloudcaptainai/supabase-go"
 )
 
 const (

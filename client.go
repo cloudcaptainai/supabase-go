@@ -72,7 +72,7 @@ func NewClient(url, key string, options *ClientOptions) (*Client, error) {
 		schema = "public"
 	}
 
-	client.rest = postgrest.NewClient(url+REST_URL, schema, headers)
+	client.rest = postgrest.NewClientFast(url+REST_URL, schema, headers)
 	client.Storage = storage_go.NewClient(url+STORAGE_URL, key, headers)
 	client.Auth = auth.New(url, key).WithCustomAuthURL(url + AUTH_URL)
 	client.Functions = functions.NewClient(url+FUNCTIONS_URL, key, headers)

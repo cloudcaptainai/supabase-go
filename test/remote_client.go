@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/cloudcaptainai/supabase-go"
 	"github.com/joho/godotenv"
-	"github.com/supabase-community/supabase-go"
 )
 
 func main() {
