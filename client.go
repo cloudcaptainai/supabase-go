@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
+	"github.com/cloudcaptainai/postgrest-go"
 	"github.com/supabase-community/auth-go"
 	"github.com/supabase-community/auth-go/types"
 	"github.com/supabase-community/functions-go"
-	"github.com/supabase-community/postgrest-go"
 	storage_go "github.com/supabase-community/storage-go"
 )
 
