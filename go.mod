@@ -17,7 +17,7 @@ require (
 	github.com/bytedance/sonic/loader v0.4.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/klauspost/compress v1.18.2 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.9 // indirect
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
